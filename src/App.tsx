@@ -1,8 +1,11 @@
 import type { FC } from "react"
+import UserForm from "./Components/UserForm";
 
 const App: FC = () => {
   return (
-    <div className="text-3xl">App</div>
+    <>
+      <UserForm />
+    </>
   )
 }
 
